@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    // expiremental:{
+    //     appDir:true,
+    // },
+    images:{
+        domains:['image.tmdb.org'],
+    },
+}
 
 module.exports = nextConfig
